@@ -1,0 +1,89 @@
+body{
+    margin:0;
+    font-size:21px;
+    color:white;
+    font-weight:normal;
+    font-family:monospace,sans-serif;
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    vertical-align:baseline;
+
+}
+h1{
+    font-size:60px;
+    font-family: Verdana, serif;
+    color: #9AD9C0;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}
+h2{
+    font-size:36;
+}
+h3{
+  font-size:28px;
+}
+header{
+    background-color:#03A062;
+
+
+}
+
+header a{
+    color: black;
+    text-align: center;
+    padding: 11px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.mainM{
+    text-align:center;
+    position: relative;
+    left: 100px;
+    min-height: 50vh;
+    width: 500px;
+}
+/* body text config. */
+.content{
+    padding:0 100px;
+    width: auto;
+    Margin:0 auto;
+    text-align: justify;
+    height: auto;
+
+
+
+}
+
+.footer{
+    background-color: #03A062;
+    margin-top: 30px;
+    color:#f2f2f2;
+    bottom: 0;
+    position:absolute;
+    text-align:center;
+    width: 100%;
+
+}
+
+.nav{
+    margin:0  auto;
+    display:flex;
+    text-align:center;
+    width: 100%;
+
+
+}
+/* top navBar config. */
+.navBar{
+    padding:10px 10px;
+    margin:20 20px;
+    color:white;
+}
+.navBar a:hover{
+    background-color: white;
+    color: #2aa9db;
+}
+.active{
+    background-color: lightgreen;
+}
