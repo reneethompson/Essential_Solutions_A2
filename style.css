@@ -87,3 +87,22 @@ header a{
 .active{
     background-color: lightgreen;
 }
+p{
+
+  margin-left: 40px;
+  margin-right: 40px;
+  border-spacing: 40px;
+  font-size: 30px;
+  font-family: Arial;
+
+}
+
+li {
+
+  font-size: 25px;
+  font-family: Arial;
+
+}
+
+
+
