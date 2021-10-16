@@ -39,15 +39,17 @@ header a{
 .mainM{
     text-align:center;
     position: relative;
-    left: 100px;
+
     min-height: 50vh;
     width: 500px;
+    width: 100%;
+    margin-bottom: 100px;
 }
 /* body text config. */
 .content{
-    padding:0 100px;
+    padding:10px 100px 100px;
     width: auto;
-    Margin:0 auto;
+    Margin:50px auto;
     text-align: justify;
     height: auto;
 
@@ -57,10 +59,10 @@ header a{
 
 .footer{
     background-color: #03A062;
-    margin-top: 30px;
+    margin-top: 100px;
     color:#f2f2f2;
     bottom: 0;
-    position:absolute;
+    position:fixed;
     text-align:center;
     width: 100%;
 
@@ -103,6 +105,3 @@ li {
   font-family: Arial;
 
 }
-
-
-
